@@ -1,6 +1,6 @@
 #include<iostream>
-#include<cstdio>
-#include<cmath>
+//#include<cstdio>
+//#include<cmath>
 using namespace std;
 
 int remove(int arr[], int n){
