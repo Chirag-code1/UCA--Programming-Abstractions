@@ -6,7 +6,7 @@ using namespace std;
 
 void testfunction(int arr[],int x,char ch,int num, int n){
     int temp;
-    if(ch == 'L'){
+    if(ch == 'L'  || ch == 'l'){
         while(x>0){
         temp = arr[0];
             for(int i=1;i<=n-1;i++){
@@ -16,7 +16,7 @@ void testfunction(int arr[],int x,char ch,int num, int n){
         x--;
         }
         
-    } else if ( ch == 'R'){
+    } else if ( ch == 'R' || ch == 'r'){
         while(x>0){
         temp = arr[n-1];
             for(int i=n-2;i>=1;i--){
