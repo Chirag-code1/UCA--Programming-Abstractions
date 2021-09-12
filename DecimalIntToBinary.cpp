@@ -6,7 +6,7 @@
 using namespace std;
 
 void dtb (int n){
-//quotient = n/2;
+ //quotient = n/2;
         int rem=0, ans=0, i=1;
     while(n>0){
         rem = n%2;
