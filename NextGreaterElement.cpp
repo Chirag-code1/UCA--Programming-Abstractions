@@ -8,6 +8,7 @@
 #include<iostream>
 #include<cstdio>
 #include<cmath>
+
 using namespace std;
 
 void greaterElement(int arr[], int n){
