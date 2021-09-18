@@ -27,7 +27,7 @@ int main()
         }
     }
     if(flag == 0){
-        cout<<"NOT Found!"<<endl;
+        cout<<"NOt Found!"<<endl;
     }
 
    return 0;
