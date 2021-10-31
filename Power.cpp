@@ -25,7 +25,7 @@ ans = ans * x;   // ans * ans * x
 i--;
 }
 
-cout << ans;
+cout << ans<<endl;
 
 return 0;
 }
