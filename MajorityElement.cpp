@@ -10,7 +10,7 @@ void getMajorityElement(int array[], int size) {
         }
 
         if(flag > reqTimes){
-            cout<<"Flag at "<<i<<" index element is: "<<flag<<endl;
+           // cout<<"Flag at "<<i<<" index element is: "<<flag<<endl;
             majorityElement = array[i];
         }
                     
