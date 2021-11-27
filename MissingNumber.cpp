@@ -16,7 +16,7 @@ void reverse(int a[], int n, int b[], int m){
         ans1+=a[i];
 
         if(i<m)
-         ans2+=b[i];
+         {ans2+=b[i];}
     
     }
 
