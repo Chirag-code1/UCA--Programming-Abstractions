@@ -10,6 +10,7 @@ struct Node* reverseList(struct Node* head) {
        preptr=curptr;
        curptr=nextptr;
    }
-   return preptr;
+  head = preptr;
+   return head;
  
 }
