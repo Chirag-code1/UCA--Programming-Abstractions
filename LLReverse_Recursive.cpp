@@ -12,10 +12,10 @@ struct Node* reverseList(struct Node* head) {
     if(head==NULL || head->next==NULL){
         return head;
     }
-    Node* newhead=reverseList(head->next);
+    Node* new_head=reverseList(head->next);
     
     head->next->next=head;
     head->next=NULL;
    
-    return newhead;
+    return new_head;
 }
